@@ -1,7 +1,7 @@
 # T3D-convpoint
 Testing ConvPoint on Toronto-3D
 
-These scripts are mostly the example models used on Paris-Lille dataset from the ConvPoint github but modified to fit the Toronto-3D dataset.
+These scripts are mostly based on the example models used on Paris-Lille dataset from the ConvPoint github but modified to fit the Toronto-3D dataset plus some metric calculations.
 
 ## Data processing
 Run prepare_data.py to process the Toronto-3D .ply files to the same format used by Convpoint. They will be split and converted to numpy.
